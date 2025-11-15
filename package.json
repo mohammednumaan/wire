@@ -1,0 +1,21 @@
+{
+  "name": "wire",
+  "version": "1.0.0",
+  "description": "Wire is a terminal-based chat application built using NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/tui",
+    "packages/server"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
