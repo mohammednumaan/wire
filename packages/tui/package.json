@@ -11,9 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/ink": "^2.0.3",
-    "@types/react": "^19.2.5",
+    "@inkjs/ui": "^2.0.0",
+    "figlet": "^1.9.4",
     "ink": "^6.5.0",
     "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/ink": "^2.0.3",
+    "@types/react": "^19.2.5"
   }
 }

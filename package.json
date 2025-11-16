@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Wire is a terminal-based chat application built using NodeJS.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"tui": "tsx packages/tui/components/app.tsx"
   },
   "keywords": [],
   "author": "",
